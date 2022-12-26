@@ -192,7 +192,7 @@ section {
 /*--------------------------------------------------------------
 # Preloader
 --------------------------------------------------------------*/
-#preloader {
+/* #preloader {
   position: fixed;
   inset: 0;
   z-index: 999999;
@@ -200,7 +200,7 @@ section {
   background: #fff;
   transition: all 0.6s ease-out;
 }
-
+ */
 /* #preloader:before {
   content: "";
   position: fixed;
@@ -215,7 +215,7 @@ section {
   animation: animate-preloader 1.5s linear infinite;
 } */
 
-@-webkit-keyframes animate-preloader {
+/* @-webkit-keyframes animate-preloader {
   0% {
     transform: rotate(0deg);
   }
@@ -233,7 +233,7 @@ section {
   100% {
     transform: rotate(360deg);
   }
-}
+} */
 
 /*--------------------------------------------------------------
 # Disable aos animation delay on mobile devices
